@@ -1,5 +1,6 @@
 export default [
     {
+        id: 1,
         title: "Mount Fuji",
         location: "Japan",
         googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
@@ -11,11 +12,12 @@ export default [
         imageUrl: "https://scrimba.com/links/travel-journal-japan-image-url",
     },
     {
+        id: 2,
         title: "Sydney Opera House",
         location: "Australia",
         googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
         startDate: "27 May, 2023",
-        endDate: "8 Jun, 2023",
+        endDate: "08 Jun, 2023",
         imageName: "sydney-opera-house.jpeg",
         description:
             "The Sydney Opera House is a multi-venue performing arts centre in Sydney. Located on the banks of the Sydney Harbour, it is often regarded as one of the 20th century's most famous and distinctive buildings.",
@@ -23,10 +25,11 @@ export default [
             "https://scrimba.com/links/travel-journal-australia-image-url",
     },
     {
+        id: 3,
         title: "Geirangerfjord",
         location: "Norway",
         googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
-        startDate: "1 Oct, 2024",
+        startDate: "01 Oct, 2024",
         endDate: "18 Nov, 2024",
         imageName: "Geirangerfjord.jpeg",
         description:
