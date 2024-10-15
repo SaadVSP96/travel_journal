@@ -1,10 +1,7 @@
 import data from "./data";
-
+console.log(data);
 function App() {
-    const cards = data.map((item) => {
-        return <Card key={item.id} {...item} />;
-    });
-    return <></>;
+    return <h1>Hello</h1>;
 }
 
 export default App;
