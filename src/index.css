@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 10px;
+    font-family: Inter, sans-serif;
+}
+
+nav {
+    background-color: #f55a5a;
+    height: 6rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav--icon {
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.nav--title {
+    font-size: 1.5rem;
+    color: white;
+}

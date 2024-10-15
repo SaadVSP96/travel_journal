@@ -1,7 +1,8 @@
 import data from "./data";
-console.log(data);
+import Navbar from "./components/Navbar";
+
 function App() {
-    return <h1>Hello</h1>;
+    return <Navbar />;
 }
 
 export default App;
