@@ -2,9 +2,12 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 body {
     margin: 0;
-    font-size: 10px;
     font-family: Inter, sans-serif;
 }
 
@@ -25,4 +28,58 @@ nav {
 .nav--title {
     font-size: 1.5rem;
     color: white;
+}
+
+.container {
+    margin: 4rem 0;
+}
+
+/* Card Styling */
+.card--container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 85%;
+    margin: 0 auto;
+    column-gap: 1.5rem;
+}
+
+.card--image {
+    width: 12.5rem;
+    height: 16.8rem;
+    border-radius: 6px;
+}
+
+.location--icon {
+    color: #f55a5a;
+}
+
+.card--location {
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 0.2em;
+}
+
+.card--googleLink {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #918e9b;
+    letter-spacing: normal;
+    text-decoration: underline;
+}
+
+.card--name {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 1rem 0;
+}
+
+.card--date {
+    margin: 1.3rem 0 0 0;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.card--description {
+    font-size: 1rem;
+    font-weight: 400;
 }
